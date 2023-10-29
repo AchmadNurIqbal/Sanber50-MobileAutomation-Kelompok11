@@ -4,8 +4,8 @@ Library         AppiumLibrary
 *** Variables ***
 ${REMOTE_URL}                http://127.0.0.1:4723/wd/hub
 ${PLATFORM_NAME}             Android
-${PLATFORM_VERSION}          12.0
-${DEVICE_NAME}               nbwcaalfyhf6r8qc
+${PLATFORM_VERSION}          13
+${DEVICE_NAME}               SM-A715F
 ${APP_PACKAGE}               com.example.myapplication
 ${APP_ACTIVITY}              com.example.myapplication.MainActivity
 
