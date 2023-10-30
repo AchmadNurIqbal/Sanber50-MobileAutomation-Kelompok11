@@ -5,9 +5,8 @@ Variables    bookFlight-locator.yaml
 
 *** Keywords ***
 Click SignIn
+    Wait Until Element Is Visible            ${btnLogin}
     Click Element    ${btnLogin}
-Click Book
-    Click Element    ${btnBook}
 
 Verify Loginpage Appears
     Wait Until Element Is Visible            ${username_login}
@@ -24,6 +23,7 @@ Click Login
     Click Element    ${loginButton}
 
 Click Button Book
+    Wait Until Element Is Visible    ${btnBook}
     Click Element    ${btnBook}
 
 Verify Book Flight Page Appears
