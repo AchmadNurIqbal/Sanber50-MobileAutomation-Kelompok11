@@ -2,6 +2,15 @@
 Resource        ../pageObject/signIn/signIn.robot
 Resource        ../pageObject/base.robot
 
+** Keywords **
+## Membuka Flight App
+## Masuk ke Menu Homepage
+## Menekan Button Sign in
+## Ketik username
+## Ketik password
+## Berhasil Login ke menu utama
+
+
 *** Test Cases ***
 Verify Failed Login (Wrong Username)
     Open Flight Application
